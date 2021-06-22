@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Responsive Cake webpage</title>
+    <meta
+      name="description"
+      content="Cake Co: Making delicious cakes for all occasions since 2021"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="hero-section">
+          <img class="hero-logo" src="img/cake-logo.png" alt="cake logo" />
+          <button id="navbar-hamburger-menu" class="navbar-hamburger-menu">
+            <i class="fas fa-bars navbar-hamburger-logo"></i>
+          </button>
+          <p class="hero-text">The best cakes in town delivered to your door</p>
+        </div>
+
+        <ul id="navbar-full-menu" class="navbar-full-menu">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">CAKES</a></li>
+          <li><a href="#">ORDER IN</a></li>
+          <li><a href="#">LESSON</a></li>
+          <li><a href="#">ABOUT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-content">
+      <section class="welcome-section">
+        <article class="welcome-container">
+          <h1 class="welcome-title">Welcome</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra,
+            velit sit amet maximus dignissim, felis eros ultrices turpis, nec
+            maximus lacus arcu ut nisl. Proin hendrerit, eros ut euismod
+            eleifend, ex velit convallis odio, eget consequat diam tellus
+            feugiat nisi. Donec pulvinar odio sit amet lacus commodo, et
+            ullamcorper felis tincidunt.
+          </p>
+        </article>
+        <img
+          class="welcome-image"
+          src="img/welcome-image.jpg"
+          alt="Picture of wedding cake"
+        />
+      </section>
+      <section class="cake-type-section">
+        <div class="cake-type-container">
+          <img
+            class="cake-type-image"
+            src="img/birthday-cake.jpg"
+            alt="cake pic"
+          />
+        </div>
+        <div class="cake-type-container">
+          <img
+            class="cake-type-image"
+            src="img/slice-cake.jpg"
+            alt="Cake slice"
+          />
+        </div>
+
+        <div class="cake-type-container">
+          <img class="cake-type-image" src="img/cup-cake.jpg" alt="Cup cake" />
+        </div>
+
+        <div class="cake-type-container">
+          <img class="cake-type-image" src="img/donut-cake.jpg" alt="Donut" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-container">
+      <section class="footer-social">
+        <nav class="footer-social-container">
+          <a
+            class="footer-social-link"
+            href="https://twitter.com"
+            target="_blank"
+          >
+            <img
+              class="footer-social-image"
+              src="img/twitter-icon.png"
+              alt="Twitter icon"
+            />
+          </a>
+          <a
+            class="footer-social-link"
+            href="https://en-gb.facebook.com/"
+            target="_blank"
+          >
+            <img
+              class="footer-social-image"
+              src="img/facebook-icon.png"
+              alt="Facebook icon"
+            />
+          </a>
+          <a
+            class="footer-social-link"
+            href="https://www.instagram.com/"
+            target="_blank"
+          >
+            <img
+              class="footer-social-image"
+              src="img/instagram-icon.png"
+              alt="Instagram icon"
+            />
+          </a>
+        </nav>
+      </section>
+
+      <p class="footer-copyright">© All rights reserved | Cake Co. 2021</p>
+      <p class="footer-feedback">
+        Send website <a href="mailto:siteFeedback@cakeCo.com">feedback</a>
+      </p>
+    </footer>
+
+    <script src="hamburger.js"></script>
+  </body>
+</html>
