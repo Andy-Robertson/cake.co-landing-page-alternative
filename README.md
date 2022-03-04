@@ -30,7 +30,7 @@ A fun cake themed landing page that was developed while following a user story a
 
 ## Preview
 
-Episode Listing Page
+Landing Page
 ![Cake-co-landing-page](https://andy-robertson.dev/static/media/CakeCo.2b708df8.png)
 
 
